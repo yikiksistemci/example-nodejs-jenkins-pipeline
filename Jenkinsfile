@@ -9,8 +9,8 @@ pipeline {
                 echo '$PATH'
                 sh 'which npm'
                 sh 'ls -al'
-                sh 'nodejs version'
-                sh 'npm version'
+                sh 'nodejs -v'
+                sh 'npm -v'
                 sh 'npm install'    
             }
         }
