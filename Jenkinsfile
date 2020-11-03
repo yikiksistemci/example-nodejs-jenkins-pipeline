@@ -6,7 +6,7 @@ pipeline {
                 sh 'printenv' 
                 sh 'pwd'
                 sh 'whoami'
-                echo $PATH
+                echo '$PATH'
                 which npm
                 sh 'ls -al'
                 sh 'npm install'    
