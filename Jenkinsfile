@@ -8,7 +8,7 @@ pipeline {
                 sh 'whoami'
                 echo $PATH
                 which npm
-                ls -al
+                sh 'ls -al'
                 sh 'npm install'    
             }
         }
