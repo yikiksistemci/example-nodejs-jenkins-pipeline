@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'printenv && pwd && whoami && echo $PATH' 
+                sh 'printenv && pwd && whoami && echo $PATH && which npm' 
             }
         }
     }
