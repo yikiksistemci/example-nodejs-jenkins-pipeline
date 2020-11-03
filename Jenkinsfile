@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'npm-agent' }
+    agent { label 'npm-agent-logan' }
     stages {
         stage('Build') { 
             steps {
