@@ -10,7 +10,8 @@ pipeline {
                 sh 'which npm'
                 sh 'ls -al'
                 sh 'npm -v'
-                sh 'npm install'    
+                sh 'npm install' 
+                sh 'ls -la'
             }
         }
     }
