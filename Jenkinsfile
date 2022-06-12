@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'npm-agent-logan' }
+    agent { label 'jenkins-slave-node' }
     stages {
         stage('Build') { 
             steps {
