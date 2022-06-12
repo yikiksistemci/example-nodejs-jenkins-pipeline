@@ -14,11 +14,7 @@ pipeline {
                 sh 'ls -la'
             }
         }
-     stage('Test') {
-      steps {
-        sh 'node test'
-      }
-    }
+
     
     }
 }
